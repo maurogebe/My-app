@@ -11,7 +11,7 @@ function App() {
   let country = prompt('De que pais eres')
   return (
     <div className="App">
-      <div className="container container--w-80 container--m-center">
+      <div className="container container--w-80 container--m-center container--mt-20">
         <div className="row row--grid row--templ-rep-3-1fr">
           <Profile name={name} country={country} />
           <Interests />

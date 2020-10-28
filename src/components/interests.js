@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Interests() {
     return (
-        <div className="container container--bg-navy-green container--border container--h-250">
+        <div className="container container--bg-navy-green container--h-250 container--p-10">
             <h3 className="container__title">Intereses</h3>
             <ul className="list">
                 <li className="list__text">
